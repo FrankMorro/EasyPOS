@@ -1,0 +1,23 @@
+﻿@Web.API_HostAddress = https://localhost:7289
+
+GET {{Web.API_HostAddress}}/weatherforecast
+
+###
+
+POST {{Web.API_HostAddress}}/api/customer
+Content-Type: application/json
+
+{
+  "name": "FRANKLIN",
+  "lastName": "MARTINEZ",
+  "email": "franklin",
+  "phoneNumber": "0414-2569687",
+  "country": "VE",
+  "line1": "AV PPAL RUIZ PINEDA",
+  "line2": "BLOQ 1 ESC 1 P7 APTO 703",
+  "city": "CARACAS",
+  "state": "DISTRITO CAPITAL",
+  "zipCode": "1030"
+}
+
+###
